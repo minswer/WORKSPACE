@@ -2,7 +2,7 @@
 
 int main() {
     char grade;
-    char name[20];
+    char name[20]; 
 
     printf("학점: ");
     scanf("%c", &grade);

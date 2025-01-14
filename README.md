@@ -94,3 +94,4 @@
     -8. git remote -v
     -9. git push -u(최초에만) origin(원격 저장소) master(my branch)
     + git branch [name] => branch 생성
+    + git reset [file]  

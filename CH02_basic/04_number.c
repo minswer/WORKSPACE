@@ -1,9 +1,10 @@
 #include <stdio.h>
-//format
+//format => 외워놓자자
 // 1. 정수(%d)  = decimal
 // 2. 실수(%lf) = float
-// 3. 문자(%c)  = character(char)
-// 4. 문자열(%s) = string(str)
+// 3. 문자(%c) = '  = character(char)
+// 4. 문자열(%s) = " " = string(str)
+
 
 int main() {
     printf("%d\n", 10);

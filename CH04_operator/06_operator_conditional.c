@@ -1,4 +1,4 @@
-/*
+/*  ***외우기***
     삼항 연산자(conditional operator)
 
     - 3 개의 항을 사용하는 연산자
@@ -13,6 +13,6 @@
 int main() {
     int a = 10, b = 20, res;
 
-    res = (a > b) > a : b;
+    res = (a > b) ? a : b;
     printf("큰 값: ", res);
 }

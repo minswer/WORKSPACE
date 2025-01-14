@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/*      ***외워놓기***
     형 변환(casting)
 
     1. promotion(small type의 값을 big type의 값으로 변환)
@@ -22,6 +22,6 @@ int main() {
 
     double pi = 3.14;
     int a;
-    a = pi;
+    a = (int)pi;
     printf("%d", a);
 }
