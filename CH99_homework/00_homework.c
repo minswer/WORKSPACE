@@ -1,29 +1,37 @@
 /*
-C í”„ë¡œê·¸ëž˜ë° ì–¸ì–´ë¥¼ ì‚¬ìš©í•´ì„œ ë‹¤ìŒ ì¡°ê±´ì— ë§žëŠ” ì½”ë“œë¥¼ ìž‘ì„±í•˜ê³  ì œì¶œí•˜ì„¸ìš”.
+C ÇÁ·Î±×·¡¹Ö ¾ð¾î¸¦ »ç¿ëÇØ¼­ ´ÙÀ½ Á¶°Ç¿¡ ¸Â´Â ÄÚµå¸¦ ÀÛ¼ºÇÏ°í Á¦ÃâÇÏ¼¼¿ä.
 
-  - í”„ë¡œê·¸ëž¨: í™”ì”¨ì˜¨ë„ë¥¼ ì„­ì”¨ ì˜¨ë„ë¡œ ë³€í™˜í•˜ëŠ” í”„ë¡œê·¸ëž¨
+  - ÇÁ·Î±×·¥: È­¾¾¿Âµµ¸¦ ¼·¾¾ ¿Âµµ·Î º¯È¯ÇÏ´Â ÇÁ·Î±×·¥
 
-  - ì¡°ê±´:
+  - Á¶°Ç:
 
-    1. ì‚¬ìš©ìžì—ê²Œ ìž„ì˜ì˜ í™”ì”¨ ì˜¨ë„ ê°’ì„ ìž…ë ¥ ë°›ëŠ”ë‹¤. (ë³€ìˆ˜ëª…ì€ fVal ì‚¬ìš©í•  ê²ƒ) ex) 17.0
+    1. »ç¿ëÀÚ¿¡°Ô ÀÓÀÇÀÇ È­¾¾ ¿Âµµ °ªÀ» ÀÔ·Â ¹Þ´Â´Ù. (º¯¼ö¸íÀº fVal »ç¿ëÇÒ °Í) ex) 17.0
 
-    2. í™”ì”¨ ì˜¨ë„ë¥¼ ë§¤ê°œë³€ìˆ˜ë¡œ ìž…ë ¥ë°›ê³ , í™”ì”¨ ì˜¨ë„ë¥¼ ì„­ì”¨ì˜¨ë„ë¡œ ë°”ê¾¸ê³ , 
-    ë³€ê²½ ëœ ì„­ì”¨ ì˜¨ë„ë¥¼ returnê°’ìœ¼ë¡œ ì „ë‹¬í•˜ëŠ” í•¨ìˆ˜ë¥¼ ì •ì˜í•œë‹¤. (í•¨ìˆ˜ëª…ì€ FtoC, ì„­ì”¨ì˜¨ë„ ë³€ìˆ˜ëª…ì€ cVal ì‚¬ìš©í•  ê²ƒ)
+    2. È­¾¾ ¿Âµµ¸¦ ¸Å°³º¯¼ö·Î ÀÔ·Â¹Þ°í, È­¾¾ ¿Âµµ¸¦ ¼·¾¾¿Âµµ·Î ¹Ù²Ù°í, 
+    º¯°æ µÈ ¼·¾¾ ¿Âµµ¸¦ return°ªÀ¸·Î Àü´ÞÇÏ´Â ÇÔ¼ö¸¦ Á¤ÀÇÇÑ´Ù. (ÇÔ¼ö¸íÀº FtoC, ¼·¾¾¿Âµµ º¯¼ö¸íÀº cVal »ç¿ëÇÒ °Í)
 
-    3. printf("í™”ì”¨ì˜¨ë„: %.1lf, ì„­ì”¨ì˜¨ë„: %.1lf\n", fVal, cVal); ì„ ì‚¬ìš©í•´ì„œ ì¶œë ¥í•œë‹¤.
+    3. printf("È­¾¾¿Âµµ: %.1lf, ¼·¾¾¿Âµµ: %.1lf\n", fVal, cVal); À» »ç¿ëÇØ¼­ Ãâ·ÂÇÑ´Ù.
 
-  - í™”ì”¨ì˜¨ë„ë¥¼ ì„­ì”¨ì˜¨ë„ë¡œ ë³€í™˜í•˜ëŠ” ìˆ˜ì‹: (5.0 x (í™”ì”¨ì˜¨ë„-32.0)) / 9.0
-  - ì œì¶œì€ vscodeì—ì„œ ê°œë°œí•œ ì½”ë“œë¥¼ ë³µì‚¬í•´ì„œ ë¶™ì—¬ë„£ì–´ì£¼ì„¸ìš”.(íŒŒì¼ë¡œ ì œì¶œí•˜ì§€ ë§ˆì„¸ìš”!)
+  - È­¾¾¿Âµµ¸¦ ¼·¾¾¿Âµµ·Î º¯È¯ÇÏ´Â ¼ö½Ä: (5.0 x (È­¾¾¿Âµµ-32.0)) / 9.0
+  - Á¦ÃâÀº vscode¿¡¼­ °³¹ßÇÑ ÄÚµå¸¦ º¹»çÇØ¼­ ºÙ¿©³Ö¾îÁÖ¼¼¿ä.(ÆÄÀÏ·Î Á¦ÃâÇÏÁö ¸¶¼¼¿ä!)
+
+
 */
 
 #include <stdio.h>
 
-int Ftoc(int fVal, int cVal) {
 
+double FtoC(double fVal) {                      // È­¾¾¿Âµµ - ¼·¾¾¿Âµµ º¯È¯ ÇÔ¼ö¼ö
+    return (5.0 * (fVal - 32.0) / 9.0);         // ¹®Á¦ Á¶°Ç¿¡¼­ Á¦°øµÈ ½Ä »ç¿ë¿ë
 }
 
 int main() {
-    int fVal, cVal;
+    double fVal, cVal;                          // fVal, cVal º¯¼ö´Â ½Ç¼öÇüÇü
 
-    printf("í™”ì”¨ì˜¨ë„: %.1lf, ì„­ì”¨ì˜¨ë„: %.1lf\n", fVal, cVal); 
+    printf("È­¾¾ ¿Âµµ ÀÔ·Â: ");
+    scanf("%lf", &fVal);                        // fVal ÇÔ¼ö ÃÊ±âÈ­È­
+
+    cVal = FtoC(fVal);                          // À§¿¡¼­ Á¤ÀÇÇÑ FtoC ÇÔ¼ö È£Ãâ
+
+    printf("È­¾¾¿Âµµ: %.1lf, ¼·¾¾¿Âµµ: %.1lf\n", fVal, cVal);               // Á¶°Ç¿¡¼­ Á¦°ø°ø
 }
